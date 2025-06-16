@@ -1,0 +1,54 @@
+{
+  "name": "Bary – Vila Praha Braník",
+  "short_name": "Bary Braník",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#4361ee",
+  "theme_color": "#4361ee",
+  "description": "Aplikace pro správu účtenek, barů a služeb pro Vila Praha Braník",
+  "categories": ["business", "finance", "productivity"],
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nová účtenka",
+      "short_name": "Účtenka",
+      "description": "Vytvoření nové účtenky",
+      "url": "./?tab=invoice",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Historie účtenek",
+      "short_name": "Historie",
+      "description": "Zobrazení historie účtenek",
+      "url": "./?tab=history",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Hlavní obrazovka aplikace Bary Braník"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "lang": "cs",
+  "dir": "ltr"
+}
